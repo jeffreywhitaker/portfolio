@@ -32,12 +32,20 @@ export default {
 
 header {
   .flexbox-property();
+  margin: 0;
   padding: 20px 0;
   a {
     text-decoration: none;
-    color: @font-color-main;
+    color: inherit;
     padding: 20px 15px;
     margin: 10 15px;
+  }
+  button {
+    position: absolute;
+    float: right;
+  }
+  .router-link-exact-active {
+    color: lightpink;
   }
   a:hover {
     .hover();

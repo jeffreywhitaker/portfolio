@@ -102,6 +102,7 @@ export default {}
     max-width: 400px;
     width: 48%;
     margin-bottom: 10px;
+    border-radius: 5px;
   }
   .intro {
     text-align: center;
@@ -116,7 +117,7 @@ export default {}
       border: 1px solid @font-color-main;
       border-radius: 15px;
       text-decoration: none;
-      color: @font-color-main;
+      color: inherit;
       padding: 15px 30px;
       margin: 0 15px;
       display: block;
