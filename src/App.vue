@@ -1,16 +1,23 @@
 <template>
   <div>
     <Header />
-    <router-view />
+    <router-view class="container" />
   </div>
 </template>
 
 <script>
-import Header from "./components/Header.vue";
+import Header from './components/Header.vue'
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Header,
   },
-};
+}
 </script>
+
+<style lang="less" scoped>
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+</style>
