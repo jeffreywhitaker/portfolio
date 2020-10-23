@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const { VueLoaderPlugin } = require('vue-loader')
+const CopyPlugin = require('copy-webpack-plugin')
 const glob = require('glob')
 
 module.exports = {
@@ -22,6 +23,9 @@ module.exports = {
     new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
     new MiniCssExtractPlugin(),
     new VueLoaderPlugin(),
+    new CopyPlugin({
+      patterns: [{ from: './public/img/', to: './public/img' }],
+    }),
   ],
   module: {
     rules: [
@@ -59,14 +63,22 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'less-loader'],
       },
       // handle png modules (files)
+      // {
+      //   test: /\.png$/,
+      //   use: [
+      //     {
+      //       loader: 'url-loader',
+      //       options: {
+      //         mimetype: 'image/png',
+      //       },
+      //     },
+      //   ],
+      // },
       {
-        test: /\.png$/,
+        test: /\.(png|jpe?g|gif)$/i,
         use: [
           {
-            loader: 'url-loader',
-            options: {
-              mimetype: 'image/png',
-            },
+            loader: 'file-loader',
           },
         ],
       },
