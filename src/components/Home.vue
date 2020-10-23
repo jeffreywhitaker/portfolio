@@ -2,7 +2,7 @@
   <main class="container">
     <section class="intro-wrapper">
       <img
-        src="/img/jeff-main.jpg"
+        src="/public/img/jeff-main.jpg"
         alt="A picture of Jeffrey Whitaker"
         class="jeff-pic"
       />
@@ -44,12 +44,12 @@
         <h1>Skills</h1>
         <br />
         <ul>
-          <li>- Knowledge of html/css, JS, Java, C#, Python, & Ruby</li>
+          <li>Knowledge of html/css, JS, Java, C#, Python, & Ruby</li>
           <li>
-            - Proficient in React, Vue, Redux, Node, Spring Boot, Django, Rails
+            Proficient in React, Vue, Redux, Node, Spring Boot, Django, Rails
           </li>
-          <li>- Experience with diverse groups and teams</li>
-          <li>- Background in teaching and mentoring others</li>
+          <li>Experience with diverse groups and teams</li>
+          <li>Background in teaching and mentoring others</li>
         </ul>
       </article>
     </section>
