@@ -7,6 +7,6 @@
 <style lang="less" scoped>
 footer {
   text-align: center;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 </style>

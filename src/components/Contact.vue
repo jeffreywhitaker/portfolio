@@ -5,8 +5,8 @@
     <p>Jeffrey David Whitaker</p>
     <p>Elgin, Oregon, 97827</p>
     <br />
-    <a href="mailto:jeffrey.david.whitaker@zoho.com"
-      >jeffrey.david.whitaker@zoho.com</a
+    <a href="mailto:jeffrey.david.whitaker@gmail.com"
+      >jeffrey.david.whitaker@gmail.com</a
     ><br />
     <a href="http://jeffreywhitaker.com">jeffreywhitaker.com</a><br />
     <a href="http://github.com/jeffreywhitaker">github.com/jeffreywhitaker</a
