@@ -1,15 +1,6 @@
-# Vue Template
+# Personal Website
 
-Use as a template for starting Vue projects.
-
-Contains:
-
-- Vue
-- Vue Router
-- Vuex
-- Webpack
-- Babel
-- Jest
+Made with my Vue Template [https://github.com/jeffreywhitaker/vue-template], which provides the basics for starting a new project in Vue.
 
 ## Instructions
 

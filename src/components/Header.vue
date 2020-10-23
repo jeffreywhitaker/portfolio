@@ -10,12 +10,21 @@
         >Resume</a
       >
       <router-link to="/contact">Contact</router-link>
+      <button @click="toggleDM">Toggle DM</button>
     </nav>
   </header>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'Header',
+  props: {
+    toggleDM: {
+      type: Function,
+      required: true,
+    },
+  },
+}
 </script>
 
 <style lang="less" scoped>
