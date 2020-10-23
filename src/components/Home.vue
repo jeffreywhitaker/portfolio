@@ -84,10 +84,6 @@
         </ul>
       </article>
     </section>
-
-    <footer>
-      <p>Copyright Jeffrey David Whitaker 2019</p>
-    </footer>
   </main>
 </template>
 
