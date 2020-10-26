@@ -38,7 +38,6 @@ header {
     text-decoration: none;
     color: inherit;
     padding: 20px 15px;
-    margin: 10 15px;
   }
   button {
     position: absolute;
