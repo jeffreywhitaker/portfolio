@@ -62,6 +62,9 @@ export default {
   .router-link-exact-active {
     color: lightpink;
   }
+  a:hover {
+    color: black
+  }
 }
 
 </style>
