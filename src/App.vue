@@ -1,6 +1,6 @@
 <template>
-  <div :class="isUsingDarkMode ? 'darkMode' : null">
-    <Header :toggleDM="toggleDM" />
+  <div class="outer" :class="isUsingDarkMode ? 'darkMode' : null">
+    <Header :is-using-dark-mode="isUsingDarkMode" :toggleDM="toggleDM" />
     <router-view class="container" />
     <Footer />
   </div>
@@ -22,12 +22,13 @@ export default {
   },
   mounted() {
     if (localStorage.getItem('darkMode')) {
-      this.isUsingDarkMode = localStorage.getItem('darkMode')
+      this.isUsingDarkMode = (localStorage.getItem('darkMode') === 'true')
     }
   },
   methods: {
     toggleDM() {
       this.isUsingDarkMode = !this.isUsingDarkMode
+      localStorage.setItem('darkMode', this.isUsingDarkMode)
     },
   },
 }
@@ -41,11 +42,29 @@ export default {
   margin: 0 auto;
   min-height: 100vh;
 }
+.outer {
+  .router-link-exact-active {
+    color: blue;
+  }
+}
+  i {
+    color: black;
+  }
 .darkMode {
   background-color: @dm-background;
   color: @dm-font-color;
   a {
     color: @dm-font-color;
   }
+    i {
+    color: #f3d642;
+  }
+  .router-link-exact-active {
+    color: lightpink;
+  }
+  a:hover {
+    color: black
+  }
 }
+
 </style>

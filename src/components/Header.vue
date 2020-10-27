@@ -10,8 +10,9 @@
         >Resume</a
       >
       <router-link to="/contact">Contact</router-link>
-      <button @click="toggleDM">Toggle DM</button>
     </nav>
+    <a @click="toggleDM" class="toggle"><i :class="setToggleIcon" aria-hidden="true" />
+</a>
   </header>
 </template>
 
@@ -19,11 +20,20 @@
 export default {
   name: 'Header',
   props: {
+    isUsingDarkMode: {
+      type: Boolean,
+      required: true
+    },
     toggleDM: {
       type: Function,
       required: true,
     },
   },
+  computed: {
+    setToggleIcon() {
+      return this.isUsingDarkMode ? 'fa fa-sun-o' : 'fa fa-moon-o'
+    }
+  }
 }
 </script>
 
@@ -34,18 +44,18 @@ header {
   .flexbox-property();
   margin: 0;
   padding: 20px 0;
+  nav {
+    margin: 0 auto;
+  }
   a {
     text-decoration: none;
     color: inherit;
     padding: 20px 15px;
-    margin: 10 15px;
+    // test github commit
   }
-  button {
-    position: absolute;
+  .toggle {
+    // position: absolute;
     float: right;
-  }
-  .router-link-exact-active {
-    color: lightpink;
   }
   a:hover {
     .hover();

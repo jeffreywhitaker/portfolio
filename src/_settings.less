@@ -5,21 +5,25 @@
 @dm-font-color: white;
 
 @keyframes button {
-	from {background-color: white;}
-	to {background-color: hotpink;}
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: hotpink;
+  }
 }
 
 .flexbox-property {
-	display: flex;
-	justify-content: space-around; 
-	margin: 10px auto;
-	border-bottom: 1px solid @font-color-main;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  border-bottom: 1px solid @font-color-main;
 }
 
 .hover {
-  color: black;
-	animation-name: button;
+  //   color: black;
+  animation-name: button;
   animation-duration: 2s;
   animation-fill-mode: forwards;
-	// font-weight: bold;
+  // font-weight: bold;
 }
