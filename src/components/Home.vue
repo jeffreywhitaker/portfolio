@@ -21,11 +21,10 @@
         <h2>MA History, U Oregon 2017</h2>
         <br />
         <br />
-        <br />
-        <router-link to="/projects">Projects</router-link>
+        <router-link to="/projects" class="button">Projects</router-link>
       </article>
     </section>
-
+    <div class="spacer"></div>
     <section class="middle-wrapper">
       <article class="about" id="about">
         <h1>About Me</h1>
@@ -53,7 +52,7 @@
         </ul>
       </article>
     </section>
-
+    <div class="spacer"></div>
     <section class="work-history">
       <article>
         <h1>Select Work History</h1>
@@ -84,6 +83,7 @@
         </ul>
       </article>
     </section>
+    <div class="spacer"></div>
   </main>
 </template>
 
@@ -112,15 +112,6 @@ export default {}
     }
     h2 {
       font-size: 18px;
-    }
-    a {
-      border: 1px solid @font-color-main;
-      border-radius: 15px;
-      text-decoration: none;
-      color: inherit;
-      padding: 15px 30px;
-      margin: 0 15px;
-      display: block;
     }
   }
   @media only screen and (max-width: 500px) {

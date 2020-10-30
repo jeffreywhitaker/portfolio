@@ -44,6 +44,13 @@ export default {
 header {
   .flexbox-property();
   margin: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: @font-color-main;
+  transition: border-bottom-color 0.3s;
+  .darkMode & {
+    border-bottom-color: white;
+  }
   nav {
     display: flex;
     align-content: center;

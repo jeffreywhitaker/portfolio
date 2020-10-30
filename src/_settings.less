@@ -8,5 +8,31 @@
   display: flex;
   justify-content: space-around;
   margin: 10px auto;
-  border-bottom: 1px solid @font-color-main;
+}
+
+.spacer {
+  margin: 35px 0px;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: @dm-background;
+  transition: border-bottom-color 0.3s;
+  .darkMode & {
+    border-bottom-color: #f2e5d7;
+  }
+}
+
+.button {
+  background-color: #99D5C9;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+  padding: 15px 30px;
+  margin: 0 15px;
+  display: block;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  &:hover {
+    background-color: #F2E5D7;
+  }
 }

@@ -45,14 +45,20 @@ export default {
 .outer {
   font-family: Calibri, sans-serif;
   line-height: 1.7;
+  font-weight: 200;
+  background-color: white;
+  color: @font-color-main;
+  transition: background-color 0.3s, color 0.3s;
+  &.darkMode {
+    background-color: @dm-background;
+    color: @dm-font-color;
+  }
   .router-link-exact-active {
     font-weight: 700;
   }
 }
 
 .darkMode {
-  background-color: @dm-background;
-  color: @dm-font-color;
   a {
     color: @dm-font-color;
   }
