@@ -122,9 +122,6 @@ export default {}
       margin: 0 15px;
       display: block;
     }
-    a:hover {
-      .hover();
-    }
   }
   @media only screen and (max-width: 500px) {
     flex-direction: column;
