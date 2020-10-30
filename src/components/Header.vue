@@ -11,8 +11,9 @@
       >
       <router-link to="/contact">Contact</router-link>
     </nav>
-    <a @click="toggleDM" class="toggle"><i :class="setToggleIcon" aria-hidden="true" />
-</a>
+    <a @click="toggleDM" class="toggle"
+      ><i :class="setToggleIcon" aria-hidden="true" />
+    </a>
   </header>
 </template>
 
@@ -22,7 +23,7 @@ export default {
   props: {
     isUsingDarkMode: {
       type: Boolean,
-      required: true
+      required: true,
     },
     toggleDM: {
       type: Function,
@@ -32,8 +33,8 @@ export default {
   computed: {
     setToggleIcon() {
       return this.isUsingDarkMode ? 'fa fa-sun-o' : 'fa fa-moon-o'
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -43,23 +44,48 @@ export default {
 header {
   .flexbox-property();
   margin: 0;
-  padding: 20px 0;
   nav {
-    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-grow: 1;
   }
   a {
     text-decoration: none;
     color: inherit;
     padding: 20px 15px;
-    // test github commit
+    position: relative;
+    &:after {
+      transition: width 0.5s;
+      width: 0%;
+      position: absolute;
+      content: '';
+      height: 2px;
+      bottom: 15px;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+    }
+    &:hover:after {
+      animation-name: underline;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+      background-color: #f2e5d7;
+      width: 40%;
+    }
   }
-  .toggle {
-    // position: absolute;
-    float: right;
+
+  @keyframes underline {
+    from {
+      background-color: #f2e5d7;
+      width: 40%;
+    }
+    to {
+      background-color: #ffbcb5;
+      width: 80%;
+    }
   }
-  a:hover {
-    .hover();
-  }
+
   @media only screen and (max-width: 360px) {
     margin: 0px;
     nav {

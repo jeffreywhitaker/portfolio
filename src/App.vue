@@ -22,7 +22,7 @@ export default {
   },
   mounted() {
     if (localStorage.getItem('darkMode')) {
-      this.isUsingDarkMode = (localStorage.getItem('darkMode') === 'true')
+      this.isUsingDarkMode = localStorage.getItem('darkMode') === 'true'
     }
   },
   methods: {
@@ -39,32 +39,25 @@ export default {
 
 .container {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 40px auto;
   min-height: 100vh;
 }
 .outer {
+  font-family: Calibri, sans-serif;
+  line-height: 1.7;
   .router-link-exact-active {
-    color: blue;
+    font-weight: 700;
   }
 }
-  i {
-    color: black;
-  }
+
 .darkMode {
   background-color: @dm-background;
   color: @dm-font-color;
   a {
     color: @dm-font-color;
   }
-    i {
+  .toggle {
     color: #f3d642;
   }
-  .router-link-exact-active {
-    color: lightpink;
-  }
-  a:hover {
-    color: black
-  }
 }
-
 </style>
