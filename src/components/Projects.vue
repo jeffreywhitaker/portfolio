@@ -46,7 +46,7 @@
         </a>
       </div>
     </article>
-
+    <div class="spacer"></div>
     <article class="project-wrapper reverse">
       <div class="image-wrapper">
         <a href="public/img/dadjoke2.png" class="fresco">
@@ -94,7 +94,7 @@
         </button>
       </div>
     </article>
-
+    <div class="spacer"></div>
     <article class="project-wrapper">
       <div class="text-wrapper">
         <h1>Action-Adventure Game</h1>
@@ -117,7 +117,7 @@
         /></a>
       </div>
     </article>
-
+    <div class="spacer"></div>
     <article class="project-wrapper reverse">
       <div class="image-wrapper">
         <a href="public/img/switchlist.png" class="fresco">
@@ -161,6 +161,7 @@
         </button>
       </div>
     </article>
+    <div class="spacer"></div>
   </section>
 </template>
 
