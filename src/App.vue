@@ -17,7 +17,7 @@ export default {
   },
   data() {
     return {
-      isUsingDarkMode: false,
+      isUsingDarkMode: true,
     }
   },
   mounted() {
