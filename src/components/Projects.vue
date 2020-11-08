@@ -3,9 +3,8 @@
     <article class="project-wrapper">
       <div class="text-wrapper">
         <h1>MoodBloom</h1>
-        <h2>
-          Tech stack: React | Node | Apollo | GraphQL | MongoDB | Passport.js
-        </h2>
+        <h2>Frontend Stack: React | Apollo | Context API</h2>
+        <h2>Backend Stack: Node | Express | GraphQL | MongoDB | Passport.js</h2>
         <br />
         <p>
           For this project I worked in a cross-functional team, building a
@@ -55,9 +54,8 @@
       </div>
       <div class="text-wrapper">
         <h1>DadJoke Project</h1>
-        <h2>
-          Tech stack: Java | Spring | Spring Boot | PostgreSQL | React | Redux
-        </h2>
+        <h2>Frontend Stack: React | Redux</h2>
+        <h2>Backend Stack: Java | Spring | PostgreSQL</h2>
         <br />
         <p>
           For this project I created a Java/Spring backend API with CRUD
@@ -98,7 +96,7 @@
     <article class="project-wrapper">
       <div class="text-wrapper">
         <h1>Action-Adventure Game</h1>
-        <h2>Tech stack: C# | Unity</h2>
+        <h2>Tech Stack: C# | Unity</h2>
         <br />
         <p>
           Built from scratch in Unity, I do the coding while my co-creator makes
@@ -126,7 +124,8 @@
       </div>
       <div class="text-wrapper">
         <h1>SwitchList</h1>
-        <h2>Tech stack: React | Redux | Node | REST API | MongoDB</h2>
+        <h2>Frontend Stack: React | Redux</h2>
+        <h2>Backend Stack: Node | Express | REST API | MongoDB</h2>
         <br />
         <p>
           This project is a list of Nintendo Switch games, drawn from a Node.js

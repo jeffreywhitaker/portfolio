@@ -14,6 +14,7 @@
     <a href="http://linkedin.com/in/jeffrey-david-whitaker"
       >linkedin.com/in/jeffrey-david-whitaker</a
     >
+    <div class="spacer"></div>
   </section>
 </template>
 
@@ -25,7 +26,7 @@ export default {}
 @import '../_settings.less';
 
 .contact-wrapper {
-  border-bottom: 1px solid @font-color-main;
+  // border-bottom: 1px solid @font-color-main;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }

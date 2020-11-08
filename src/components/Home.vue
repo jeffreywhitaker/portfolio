@@ -58,25 +58,25 @@
         <h1>Select Work History</h1>
         <br />
         <ul>
-          <li>Paintberri.com, Junior Web Developer // July 2020 - present</li>
+          <li>Paintberri.com, Fullstack Web Developer | June 2020 - present</li>
           <br />
           <li>
-            Lambda School, Team Lead (TA) // August 2019 - November 2019,
+            Lambda School, Team Lead (TA) | August 2019 - November 2019,
             February 2020 - July 2020
           </li>
           <br />
           <li>
-            Jackson County Library Services, Associate // February 2019 - June
+            Jackson County Library Services, Associate | February 2019 - June
             2019
           </li>
           <br />
           <li>
-            Jackson County Library Services, Volunteer // Ocotober 2018 -
+            Jackson County Library Services, Volunteer | Ocotober 2018 -
             February 2019
           </li>
           <br />
           <li>
-            University of Oregon, Graduate Teaching Fellow // September 2012 -
+            University of Oregon, Graduate Teaching Fellow | September 2012 -
             June 2017
           </li>
           <br />
@@ -137,6 +137,9 @@ export default {}
   .skills {
     width: 48%;
     margin: 0 20px 10px;
+    ul {
+      list-style-type: circle;
+    }
   }
   @media only screen and (max-width: 500px) {
     margin: 10px;
@@ -154,7 +157,7 @@ export default {}
 
 .work-history {
   .flexbox-property();
-  div ul {
+  article ul {
     list-style-type: circle;
   }
   @media only screen and (max-width: 500px) {

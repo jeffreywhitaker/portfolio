@@ -2,7 +2,7 @@
   <div class="outer" :class="isUsingDarkMode ? 'darkMode' : null">
     <Header :is-using-dark-mode="isUsingDarkMode" :toggleDM="toggleDM" />
     <router-view class="container" />
-    <Footer />
+    <Footer :is-using-dark-mode="isUsingDarkMode" />
   </div>
 </template>
 
@@ -39,7 +39,7 @@ export default {
 
 .container {
   max-width: 1100px;
-  margin: 40px auto;
+  margin: 10px auto;
   min-height: 100vh;
 }
 .outer {
