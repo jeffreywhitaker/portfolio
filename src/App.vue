@@ -2,7 +2,7 @@
   <div class="outer" :class="isUsingDarkMode ? 'darkMode' : null">
     <Header :is-using-dark-mode="isUsingDarkMode" :toggleDM="toggleDM" />
     <router-view class="container" />
-    <Footer :is-using-dark-mode="isUsingDarkMode" />
+    <Footer />
   </div>
 </template>
 

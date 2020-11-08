@@ -14,30 +14,32 @@
           anxiety level, and other notes. Users can complete activities, view a
           calendar of their mood history, or export their data as a PDF.
         </p>
-        <button>
-          <a
-            href="https://moodbloomapp.com"
-            target="_blank"
-            onclick="clickProjectLink()"
-            >Website</a
-          >
-        </button>
-        <button>
-          <a
-            href="https://github.com/Lambda-School-Labs/ema-therapy-fe"
-            target="_blank"
-            onclick="clickProjectLink()"
-            >Frontend Github</a
-          >
-        </button>
-        <button>
-          <a
-            href="https://github.com/Lambda-School-Labs/ema-therapy-be"
-            target="_blank"
-            onclick="clickProjectLink()"
-            >Backend Github</a
-          >
-        </button>
+        <div class="button-wrapper">
+          <button class="smallButton">
+            <a
+              href="https://moodbloomapp.com"
+              target="_blank"
+              onclick="clickProjectLink()"
+              >Website</a
+            >
+          </button>
+          <button class="smallButton">
+            <a
+              href="https://github.com/Lambda-School-Labs/ema-therapy-fe"
+              target="_blank"
+              onclick="clickProjectLink()"
+              >Frontend Github</a
+            >
+          </button>
+          <button class="smallButton">
+            <a
+              href="https://github.com/Lambda-School-Labs/ema-therapy-be"
+              target="_blank"
+              onclick="clickProjectLink()"
+              >Backend Github</a
+            >
+          </button>
+        </div>
       </div>
       <div class="image-wrapper">
         <a href="public/img/moodbloomCombined.png" class="fresco">
@@ -63,33 +65,35 @@
           users to signup and login, and accepts query strings where applicable.
           I later built a react frontend to showcase the project.
         </p>
-        <button>
-          <a
-            href="https://dadjoke.jeffreydavidwhitaker.now.sh/login"
-            target="_blank"
-            onclick="clickProjectLink()"
-          >
-            Website</a
-          >
-        </button>
-        <button>
-          <a
-            href="https://github.com/jeffreywhitaker/dadjoke"
-            target="_blank"
-            onclick="clickProjectLink()"
-          >
-            Frontend Github</a
-          >
-        </button>
-        <button>
-          <a
-            href="https://github.com/jeffreywhitaker/dadjoke-java-backend"
-            target="_blank"
-            onclick="clickProjectLink()"
-          >
-            Backend Github</a
-          >
-        </button>
+        <div class="button-wrapper">
+          <button class="smallButton">
+            <a
+              href="https://dadjoke.jeffreydavidwhitaker.now.sh/login"
+              target="_blank"
+              onclick="clickProjectLink()"
+            >
+              Website</a
+            >
+          </button>
+          <button class="smallButton">
+            <a
+              href="https://github.com/jeffreywhitaker/dadjoke"
+              target="_blank"
+              onclick="clickProjectLink()"
+            >
+              Frontend Github</a
+            >
+          </button>
+          <button class="smallButton">
+            <a
+              href="https://github.com/jeffreywhitaker/dadjoke-java-backend"
+              target="_blank"
+              onclick="clickProjectLink()"
+            >
+              Backend Github</a
+            >
+          </button>
+        </div>
       </div>
     </article>
     <div class="spacer"></div>
@@ -134,30 +138,32 @@
           composer, genre, and more. The project is built using React and
           React-Router, while the state is managed with Redux.
         </p>
-        <button>
-          <a
-            href="https://switchlist.now.sh"
-            target="_blank"
-            onclick="clickProjectLink()"
-            >Website</a
-          >
-        </button>
-        <button>
-          <a
-            href="https://github.com/jeffreywhitaker/switchlist"
-            target="_blank"
-            onclick="clickProjectLink()"
-            >Frontend Github</a
-          >
-        </button>
-        <button>
-          <a
-            href="https://github.com/jeffreywhitaker/switchlist_api"
-            target="_blank"
-            onclick="clickProjectLink()"
-            >Backend Github</a
-          >
-        </button>
+        <div class="button-wrapper">
+          <button class="smallButton">
+            <a
+              href="https://switchlist.now.sh"
+              target="_blank"
+              onclick="clickProjectLink()"
+              >Website</a
+            >
+          </button>
+          <button class="smallButton">
+            <a
+              href="https://github.com/jeffreywhitaker/switchlist"
+              target="_blank"
+              onclick="clickProjectLink()"
+              >Frontend Github</a
+            >
+          </button>
+          <button class="smallButton">
+            <a
+              href="https://github.com/jeffreywhitaker/switchlist_api"
+              target="_blank"
+              onclick="clickProjectLink()"
+              >Backend Github</a
+            >
+          </button>
+        </div>
       </div>
     </article>
     <div class="spacer"></div>
@@ -165,7 +171,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'Projects',
+}
 </script>
 
 <style lang="less" scoped>
@@ -197,6 +205,9 @@ export default {}
       text-decoration: none;
       color: black;
       cursor: default;
+    }
+    .button-wrapper {
+      display: flex;
     }
     button {
       padding: 5px 10px;
