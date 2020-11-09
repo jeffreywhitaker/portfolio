@@ -40,9 +40,9 @@ export default {
 .container {
   max-width: 1100px;
   margin: 10px auto;
-  min-height: 100vh;
 }
 .outer {
+  min-height: 100%;
   font-family: Calibri, sans-serif;
   line-height: 1.7;
   font-weight: 200;
