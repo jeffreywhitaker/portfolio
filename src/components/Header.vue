@@ -97,11 +97,15 @@ header {
     margin: 0px;
     nav {
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
+      align-items: center;
       a {
-        padding: 5px 20px;
+        padding: 8px 20px;
         border-bottom: 1px solid darkgray;
       }
+    }
+    .toggle {
+      display: none;
     }
   }
 }
