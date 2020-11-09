@@ -1,4 +1,0 @@
-{
-  "public": false,
-  "routes": [{ "src": ".*", "dest": "/index.html" }]
-}
