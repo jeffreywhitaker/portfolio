@@ -56,7 +56,7 @@
       </div>
       <div class="text-wrapper">
         <h1>DadJoke Project</h1>
-        <h2>Frontend Stack: React | Redux</h2>
+        <h2>Frontend Stack: React | Redux | Typescript</h2>
         <h2>Backend Stack: Java | Spring | PostgreSQL</h2>
         <br />
         <p>
