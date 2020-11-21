@@ -17,11 +17,13 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
+    publicPath: '/',
   },
   devtool: 'inline-source-map',
   devServer: {
     open: true,
     contentBase: './dist',
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebpackPlugin({

@@ -43,10 +43,8 @@
         <h1>Skills</h1>
         <br />
         <ul>
-          <li>Knowledge of html/css, JS, Java, C#, Python, & Ruby</li>
-          <li>
-            Proficient in React, Vue, Redux, Node, Spring Boot, Django, Rails
-          </li>
+          <li>Knowledge of html/css, JavaScript, TypeScript, C#, and Java</li>
+          <li>Proficient in React, Vue, Redux, Node, Spring Boot</li>
           <li>Experience with diverse groups and teams</li>
           <li>Background in teaching and mentoring others</li>
         </ul>
