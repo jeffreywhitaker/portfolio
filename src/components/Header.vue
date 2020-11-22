@@ -32,7 +32,7 @@ export default {
   },
   computed: {
     setToggleIcon() {
-      return this.isUsingDarkMode ? 'fa fa-sun-o' : 'fa fa-moon-o'
+      return this.isUsingDarkMode ? 'fas fa-sun' : 'fas fa-moon'
     },
   },
 }
@@ -80,6 +80,9 @@ header {
       background-color: #f2e5d7;
       width: 40%;
     }
+  }
+  .toggle {
+    cursor: pointer;
   }
 
   @keyframes underline {
