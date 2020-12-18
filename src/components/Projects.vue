@@ -1,6 +1,61 @@
 <template>
   <section class="portfolio-wrapper">
+    <article class="project-wrapper reverse">
+      <div class="text-wrapper">
+        <h1>JeffsDadJokes</h1>
+        <h2>Frontend Stack: Typescript | React | Redux | ChartJS</h2>
+        <h2>Backend Stack: Express | Express-Session | Mongoose | MongoDB</h2>
+        <br />
+        <p>
+          A site I built that lets you read, add, update, and delete dad jokes.
+          You can upvote and downvote your favorite jokes, as well as filter
+          jokes based on their vote score or creation date. Finally, you can
+          view your profile stats, follow other users, and view other users
+          profiles as well.
+        </p>
+        <div class="button-wrapper">
+          <button class="smallButton">
+            <a
+              href="https://dadjoke.jeffreydavidwhitaker.now.sh/login"
+              target="_blank"
+              onclick="clickProjectLink()"
+            >
+              Website</a
+            >
+          </button>
+          <button class="smallButton">
+            <a
+              href="https://github.com/jeffreywhitaker/dadjoke"
+              target="_blank"
+              onclick="clickProjectLink()"
+            >
+              Frontend Github</a
+            >
+          </button>
+          <button class="smallButton">
+            <a
+              href="https://github.com/jeffreywhitaker/dadjoke-java-backend"
+              target="_blank"
+              onclick="clickProjectLink()"
+            >
+              Backend Github</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <a href="public/img/jeffsdadjokes.png" class="fresco">
+          <img src="public/img/jeffsdadjokes.png"
+        /></a>
+      </div>
+    </article>
+    <div class="spacer"></div>
     <article class="project-wrapper">
+      <div class="image-wrapper">
+        <a href="public/img/moodbloomCombined.png" class="fresco">
+          <img src="public/img/moodbloomCombined.png" />
+        </a>
+      </div>
       <div class="text-wrapper">
         <h1>MoodBloom</h1>
         <h2>Frontend Stack: React | Apollo | Context API</h2>
@@ -37,60 +92,6 @@
               target="_blank"
               onclick="clickProjectLink()"
               >Backend Github</a
-            >
-          </button>
-        </div>
-      </div>
-      <div class="image-wrapper">
-        <a href="public/img/moodbloomCombined.png" class="fresco">
-          <img src="public/img/moodbloomCombined.png" />
-        </a>
-      </div>
-    </article>
-    <div class="spacer"></div>
-    <article class="project-wrapper reverse">
-      <div class="image-wrapper">
-        <a href="public/img/dadjoke2.png" class="fresco">
-          <img src="public/img/dadjoke2.png"
-        /></a>
-      </div>
-      <div class="text-wrapper">
-        <h1>DadJoke Project</h1>
-        <h2>Frontend Stack: React | Redux | Typescript</h2>
-        <h2>Backend Stack: Java | Spring | PostgreSQL</h2>
-        <br />
-        <p>
-          For this project I created a Java/Spring backend API with CRUD
-          functions for a frontend. The API has private/public modes, allows
-          users to signup and login, and accepts query strings where applicable.
-          I later built a react frontend to showcase the project.
-        </p>
-        <div class="button-wrapper">
-          <button class="smallButton">
-            <a
-              href="https://dadjoke.jeffreydavidwhitaker.now.sh/login"
-              target="_blank"
-              onclick="clickProjectLink()"
-            >
-              Website</a
-            >
-          </button>
-          <button class="smallButton">
-            <a
-              href="https://github.com/jeffreywhitaker/dadjoke"
-              target="_blank"
-              onclick="clickProjectLink()"
-            >
-              Frontend Github</a
-            >
-          </button>
-          <button class="smallButton">
-            <a
-              href="https://github.com/jeffreywhitaker/dadjoke-java-backend"
-              target="_blank"
-              onclick="clickProjectLink()"
-            >
-              Backend Github</a
             >
           </button>
         </div>
