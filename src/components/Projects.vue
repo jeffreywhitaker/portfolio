@@ -3,7 +3,9 @@
     <article class="project-wrapper reverse">
       <div class="text-wrapper">
         <h1>JeffsDadJokes</h1>
-        <h2>Frontend Stack: Typescript | React | Redux | ChartJS</h2>
+        <h2>
+          Frontend Stack: Typescript | React | Bootstrap | Redux | ChartJS
+        </h2>
         <h2>Backend Stack: Express | Express-Session | Mongoose | MongoDB</h2>
         <br />
         <p>
