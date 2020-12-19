@@ -4,7 +4,8 @@
       <div class="text-wrapper">
         <h1>JeffsDadJokes</h1>
         <h2>
-          Frontend Stack: Typescript | React | Bootstrap | Redux | ChartJS
+          Frontend Stack: Typescript | React | Redux | Bootstrap | Formik |
+          ChartJS
         </h2>
         <h2>Backend Stack: Express | Express-Session | Mongoose | MongoDB</h2>
         <br />
