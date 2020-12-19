@@ -19,7 +19,7 @@
         <div class="button-wrapper">
           <button class="smallButton">
             <a
-              href="https://dadjoke.jeffreydavidwhitaker.now.sh/login"
+              href="https://jeffsdadjokes.com"
               target="_blank"
               onclick="clickProjectLink()"
             >
