@@ -56,7 +56,11 @@
         <h1>Select Work History</h1>
         <br />
         <ul>
-          <li>Paintberri.com, Fullstack Web Developer | June 2020 - present</li>
+          <li>CodeWizardsHQ, Front End Web Developer | April 2021 - present</li>
+          <br />
+          <li>
+            Paintberri.com, Full Stack Web Developer | June 2020 - Jan 2021
+          </li>
           <br />
           <li>
             Lambda School, Team Lead (TA) | August 2019 - November 2019,
