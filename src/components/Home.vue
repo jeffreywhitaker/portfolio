@@ -28,7 +28,6 @@
     <section class="middle-wrapper">
       <article class="about" id="about">
         <h1>About Me</h1>
-        <br />
         <p>
           I began my web dev journey in 2019 by enrolling in the Lambda School
           online bootcamp. I'm excited to be working in fullstack web
@@ -41,7 +40,6 @@
 
       <article class="skills">
         <h1>Skills</h1>
-        <br />
         <ul>
           <li>Knowledge of html/css, JavaScript, TypeScript, C#, and Java</li>
           <li>Proficient in React, Vue, Redux, Node, Spring Boot</li>
@@ -54,7 +52,6 @@
     <section class="work-history">
       <article>
         <h1>Select Work History</h1>
-        <br />
         <ul>
           <li>CodeWizardsHQ, Front End Web Developer | April 2021 - present</li>
           <li>
