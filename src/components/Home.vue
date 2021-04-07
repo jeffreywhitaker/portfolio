@@ -46,7 +46,7 @@
           <li>Knowledge of html/css, JavaScript, TypeScript, C#, and Java</li>
           <li>Proficient in React, Vue, Redux, Node, Spring Boot</li>
           <li>Experience with diverse groups and teams</li>
-          <li>Background in teaching and mentoring others</li>
+          <li>Background in teaching and mentoring</li>
         </ul>
       </article>
     </section>
@@ -57,31 +57,25 @@
         <br />
         <ul>
           <li>CodeWizardsHQ, Front End Web Developer | April 2021 - present</li>
-          <br />
           <li>
             Paintberri.com, Full Stack Web Developer | June 2020 - Jan 2021
           </li>
-          <br />
           <li>
             Lambda School, Team Lead (TA) | August 2019 - November 2019,
             February 2020 - July 2020
           </li>
-          <br />
           <li>
             Jackson County Library Services, Associate | February 2019 - June
             2019
           </li>
-          <br />
           <li>
             Jackson County Library Services, Volunteer | Ocotober 2018 -
             February 2019
           </li>
-          <br />
           <li>
             University of Oregon, Graduate Teaching Fellow | September 2012 -
             June 2017
           </li>
-          <br />
         </ul>
       </article>
     </section>
