@@ -29,12 +29,10 @@
       <article class="about" id="about">
         <h1>About Me</h1>
         <p>
-          I began my web dev journey in 2019 by enrolling in the Lambda School
-          online bootcamp. I'm excited to be working in fullstack web
-          development and look forward to showcasing my strengths. I graduated
-          from Southern Oregon University in 2011 with BAs in History and
-          Psychology, and from the University of Oregon in 2017 with an MA in
-          history.
+          Full Stack Developer with a special fondness for MEVN (MongoDB,
+          Express, Vue, NodeJS) apps. I completed Lambda School's web curriculum
+          in May 2020. Graduate of the University of Oregon (MA, 2017) and
+          Southern Oregon University (BA, 2011).
         </p>
       </article>
 
